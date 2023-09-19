@@ -1,0 +1,46 @@
+package L1.Basic_Syntax_and_Conditional_Statements_and_Loops.More_Exercise;
+
+import java.util.Scanner;
+
+public class P2_English_Name_of_the_Last_Digit {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+
+        int num = Integer.parseInt(scan.nextLine());
+
+        int lastDigit = num % 10;
+
+        switch (lastDigit){
+            case 1:
+                System.out.println("one");
+                break;
+            case 2:
+                System.out.println("two");
+                break;
+            case 3:
+                System.out.println("three");
+                break;
+            case 4:
+                System.out.println("four");
+                break;
+            case 5:
+                System.out.println("five");
+                break;
+            case 6:
+                System.out.println("six");
+                break;
+            case 7:
+                System.out.println("seven");
+                break;
+            case 8:
+                System.out.println("eight");
+                break;
+            case 9:
+                System.out.println("nine");
+                break;
+            default:
+                System.out.println("zero");
+                break;
+        }
+    }
+}

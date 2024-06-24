@@ -1,0 +1,13 @@
+body{
+    border: 2px solid gray;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+article time, article span{
+    font-style: italic;
+    color: rgb(139, 139, 139);
+} 
+.author{
+    color: rgb(106, 106, 106);
+    font-weight: bold;
+}

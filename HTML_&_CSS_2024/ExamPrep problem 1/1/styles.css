@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap");
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font: inherit;
+}
+html{
+    font-family:  Kode Mono;
+}
+body{
+    background-color: #c1bdba;
+    color: white;
+}
+ul{
+  list-style-type: none;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  text-align: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul li{
+    padding: 0.7em;
+}
+.form{
+    max-width: 500px;
+    margin: 4em auto;
+    background-color: #24333c;
+    padding: 2em;
+}
+.email, .password{
+    display: block;
+    width: 100%;
+}
+
+input{
+    margin-bottom: 2em;
+    padding: 0.2em;
+    background-color: #24333c;
+}
+.signButton, .logButton{
+    flex-grow: 5;
+    align-items: center;
+    font-size: 0.8em;
+}
+.signButton{
+    background-color: #1ab188;
+}
+.logButton{
+    background-color: #435359;
+    color: #6f7a74;
+}
+.title{
+    text-align: center;
+    margin: 0.8em 0;
+    font-size: 1.6em;
+    margin-bottom: 1.3em;
+}
+.information{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.firstName, .lastName{
+    max-width: 210px;
+}
+.logButton:hover{
+    color: white;
+    background-color: #169674;
+}
+.footer{
+    text-align: center;
+    font-size: 1.8em;
+    width: 100%;
+}
+.footer h1{
+    background-color: #1ab188;
+    padding: 0.5em;
+}
+
+
+

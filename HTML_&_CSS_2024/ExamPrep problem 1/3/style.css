@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Helvetica, sans-serif;
+    padding: 2em ;
+}
+.site{
+    max-width: 840px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: #1881B6;
+    border: 5px solid black;
+    border-radius: 1em;
+    padding: 2em;
+    margin: 0 auto;
+    gap: 2em;
+}
+img{
+    max-width: 290px;
+}
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+header{
+    font-size: 0.9em;
+    margin-top: 0.5em;
+}
+main p{
+    text-indent: 45px;
+    line-height: 2em;
+    font-size: 0.75em;
+}
+main h1{
+    color: white;
+    font-weight: normal;
+    font-size: 1.88em;
+    margin-bottom: 0.5em;
+}
+footer{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: nowrap;
+}
+a{
+    padding: 0.6em 1em;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 0.75em;
+    position: relative;
+    right: 1.6em;
+    text-decoration: none;
+}
+.contactBtn{
+    color: white;
+    background-color: #B6416D;
+}
+.learnBtn{
+    background-color: #1881B6;
+    color: black;
+}

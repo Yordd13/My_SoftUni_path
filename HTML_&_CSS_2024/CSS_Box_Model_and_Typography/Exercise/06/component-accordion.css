@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+body{
+    max-width: 700px;
+    margin: 2em auto;
+}
+details{
+    border: 2px solid #eee;
+    padding: 0.5em 1em;
+}
+details summary{
+    font-weight: bold;
+    padding-bottom: 0.5em;
+}
+details p{
+    padding-bottom: 1em;
+}

@@ -1,0 +1,16 @@
+div{
+    border: 2px solid black;
+    padding: 1em;
+    margin: 10px;
+    height: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.visible{
+    overflow: visible;
+}
+.hidden{
+    overflow: hidden;
+}
+.scroll{
+    overflow: scroll;
+}

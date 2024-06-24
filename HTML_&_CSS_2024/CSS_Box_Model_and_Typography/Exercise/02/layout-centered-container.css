@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1000px;
+    border: 2px solid #1f9c1f;
+    margin: 2em auto;
+}
+.container2{
+    max-width: 600px;
+    border: 2px solid #1f1fff;
+    text-align: center;
+    margin: 1em auto;
+}
+.header, .main, .footer{
+    margin: 1em auto;
+    border: 2px solid #333;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    padding: 1em;
+}
+.container2 div p{
+    font-weight: bold;
+    font-size: small;
+}

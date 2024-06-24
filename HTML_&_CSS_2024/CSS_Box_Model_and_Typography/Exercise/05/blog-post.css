@@ -1,0 +1,28 @@
+html{
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Lato, sans-serif;
+    padding-left: 1em;
+}
+.container{
+    max-width: 1000px;
+    margin: 2em auto;
+    border: 2px solid #eee;
+    padding: 2em;
+}
+header{
+    font-weight: bolder;
+}
+h2{
+    padding-top: 2em;
+    font-size: 1.9em;
+}
+p,h1,h2{
+    padding-bottom: 1rem;
+}
+footer{
+    font-style: italic;
+}
+footer time{
+    font-weight: bold;
+}

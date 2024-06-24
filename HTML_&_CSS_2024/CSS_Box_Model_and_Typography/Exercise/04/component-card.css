@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ebebeb;
+}
+.container{
+    max-width: 400px;
+    margin: 2em auto;
+    font-size: 0.9em;
+    font-family: cursive;
+}
+img{
+    width: 400px;
+    height: 200px;
+    border-radius: 0.5em 0.5em 0 0;
+}
+header{
+    margin-bottom: 0;
+    height: 200px;
+}
+main{
+    height: 260px;
+    background-color: #ffffff;
+    text-align: left;
+    padding-left: 2em;
+    border-radius: 0 0 0.5em 0.5em;
+}
+main h2{
+    font-size: 1.4em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+main p{
+    padding-right: 2em;
+}
+p:last-of-type{
+    padding-top: 2em;
+    font-weight: bold;
+}
+a{
+    color: black;
+    text-decoration: none;
+    padding-bottom: 2em;
+    padding-right: 2em;
+}

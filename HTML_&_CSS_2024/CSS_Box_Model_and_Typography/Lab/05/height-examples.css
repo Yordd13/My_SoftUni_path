@@ -1,0 +1,19 @@
+div{
+    border: 2px solid black;
+    margin: 10px;
+    padding-left: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.fixed{
+    height: 200px;
+}
+.percentage{
+    height: 50%;
+}
+.viewport{
+    height: 50vw;
+}
+.min-max{
+    min-height: 100px;
+    max-height: 300px;
+}

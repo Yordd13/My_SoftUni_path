@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    margin: 4em auto;
+    max-width: 500px;
+}
+.container div{
+    border: 1px dashed #333;
+    padding: 0.5em 2em 2em 2em;
+}
+.container p{
+    padding-bottom: 0.8em;
+    margin-left: -1em;
+    margin-top: -0.5em;
+}
+.margin{
+    background-color: #ff966f;
+}
+
+.border{
+    background-color: #ffe8c6;
+}
+.padding{
+    background-color: #85eb85;
+}
+.container .content{
+    text-align: center;
+    background-color: #a3d2e2;
+    padding: 1em;
+}

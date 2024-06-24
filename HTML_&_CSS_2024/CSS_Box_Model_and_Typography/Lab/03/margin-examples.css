@@ -1,0 +1,16 @@
+body{
+    margin-left: 2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+div{
+    border: 2px solid black;
+}
+.uniformMargin{
+margin: 40px;
+}
+.non-uniformMargin{
+    margin: 10px 20px 30px 40px;
+}
+.negativeMargin{
+    margin: -20px;
+}

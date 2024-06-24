@@ -1,0 +1,33 @@
+html{
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Helvetica, sans-serif;
+    padding-left: 1em;
+}
+p, ol, ul{
+    padding-bottom: 1.5rem;
+}
+ol, ul{
+    padding-left: 1.5rem;
+}
+header, .titleLevel2{
+    line-height: 2;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+hr{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+blockquote{
+    font-style: italic;
+    border-left: 4px solid #dbdbdb;
+    margin: 2em;
+    margin-right: 5em;
+    padding-left: 2em;
+}
+blockquote footer{
+    text-align: right;
+    font-weight: bold;
+}

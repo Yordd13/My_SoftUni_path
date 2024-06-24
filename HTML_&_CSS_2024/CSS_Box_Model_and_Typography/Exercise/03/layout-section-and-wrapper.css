@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1000px;
+    border: 2px solid #1f9c1f;
+    margin: 2em auto;
+}
+.wrapper{
+    border: 2px solid #333;
+    margin: 1em 2em;
+}
+.wrapper:last-of-type{
+    margin-bottom: 2em;
+}
+.section{
+    border: 2px solid #1f1fff;
+    margin: 1em 5em;
+}
+.section p{
+    padding: 1em;
+    padding-left: 1.5em;
+    font-weight: bold;
+    font-size: small;
+}

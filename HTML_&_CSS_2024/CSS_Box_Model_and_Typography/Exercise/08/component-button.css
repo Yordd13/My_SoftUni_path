@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+body{
+    max-width: 600px;
+    margin: 0 auto;
+}
+button{
+    padding: 0.5em 1.5em;
+    border: 1px solid #eee;
+    margin: 1em 0.5em 1em 0em;
+    border-radius: 0.5em;
+}
+a{
+    max-width: 10px;
+}
+.gray{
+    background-color: #d8d8d8;
+}
+.orange{
+    background-color: #ff9b00;
+}
+.yellow{
+    background-color: #f9f9cc;
+}
+.white{
+    background-color: #ffffff;
+}

@@ -1,0 +1,11 @@
+.container{
+    width: 400px;
+    padding: 1em;
+    border: 2px solid blue;
+    display: flex;
+}
+.item{
+    background: #eee;
+    padding: 20px;
+    border: 2px solid #000;
+}

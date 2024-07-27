@@ -1,2 +1,2 @@
 # My_SoftUni_path
-All my problems while studying in SoftUni.
+All my exercises while studying in SoftUni.
